@@ -129,7 +129,7 @@ section{
 }
 .btn-track:hover{
     background-color: #8400c2;
-    width: 155px;
+    width: 150px;
     transition:  0.4s;   
 }
 .para{
@@ -265,7 +265,7 @@ section{
 }
 .services a{
    font-size: small;
-    color: #0300b7;
+    color: #1b00b7;
     word-spacing: 1px;
     font-weight: 800;
     text-transform: uppercase;
@@ -344,7 +344,7 @@ sup{
 }
 .img-content a{
     font-size: small;
-    color: #007ab7;
+    color: #1b00b7;
     word-spacing: 1px;
     font-weight: 700;
     text-transform: uppercase;
@@ -355,73 +355,78 @@ sup{
 }
 .valentines-gift{
     width: 70%;
-    height: 500px;
-    margin: 10px 15%;
+    height: 100px;
+    margin: 10px 15% !important;
 }
 .gift-heading{
     width: 100%;
-    height: 50px;
+    height: 20px;
+    margin: 100px 10px auto;
     text-align: center; 
-    font-size: 40px;
+    font-size: 16px !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(158, 156, 156);
 }
 .speed-gift{
     width: 100%;
-    height: 180px;
-    margin-top: 30px;
+    height: 80px !important;
+    margin-top: 10px !important;
 }
 .speed-para{
     width: 70%;
     float: right;
-    height: 180px;
+    height: 80px !important;
+    margin-top: 0px;
+}
+.speed-gift>img{
+    height: 80px;
 }
 .speed-para>p{
-    font-size: 20px;
-    word-spacing: 3px;
-    margin-left: 20px;
+    font-size: 10px !important;
+    word-spacing: 3px !important;
+    margin-left: 8px !important;
 }
 .speed-para-heading{
-    font-size:30px ;
+    font-size:15px !important;
     color: rgb(84, 79, 79);
 }
 .speed-para a{
-    font-size: small;
-    color: #007ab7;
-    word-spacing: 1px;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-size: 7px !important;
+    color: #1b00b7 !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 8px !important;
 }
 .speed-para a:hover{
     text-decoration: underline;
 }
 .taxes-gift{
     width: 100%;
-    height: 180px;
-    margin-top: 50px;
+    height: 80px !important;
+    margin-top: 20px !important;
 }
 .taxes-gift>img{
     float: right;
+    height: 80px !important;
 }
 .taxes-para{
     width: 70%;
-    height: 180px;
+    height: 80px;
 }
 .taxes-para p{
-    margin-top: 20px;
-    margin-right: 20px;
-    font-size: 20px;
-    word-spacing: 3px;
+    margin-top: 10px !important;
+    margin-right: 20px !important;
+    font-size: 10px !important;
+    word-spacing: 1px !important;
 }
 .taxes-para a{
-    font-size: small;
-    color: #007ab7;
-    word-spacing: 1px;
-    font-weight: 700;
+    font-size: 7px !important;
+    color: #1b00b7 !important;
+    font-weight: 600 !important;
     text-transform: uppercase;
     text-decoration: none;
+    margin-bottom: 10px !important;
 }
 .taxes-para a:hover{
     text-decoration: underline;
@@ -432,10 +437,9 @@ sup{
     margin: 15px 15%;
 }
 .ship-receive-para{
-    width: 100%;
-    height: 50px;
-    text-align: center; 
-    font-size: 40px;
+    width: 70%;
+    height: 260px !important;
+    margin: 10px 15%;
     color: rgb(138, 138, 138);  
 }
 .convenience-icon-left{
@@ -458,7 +462,7 @@ sup{
     font-size: 17px;
     margin-right: 10px;
 }
-.convenience-para-font{
+.convenience-para-heading{
     font-size:30px ;
     color: rgb(138, 138, 138);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -634,7 +638,7 @@ sup{
     margin: 30px 15%;
     font-size: 20px;
 }
-.money-back-para-font{
+.money-back-para-heading{
     font-weight: bold;
     font-size: 20px ;
     color: rgb(84, 79, 79);
@@ -861,7 +865,7 @@ footer{
         height: 500px;
     }
     .bg-img{
-        /* background-image: url(./image/mainBanner2.jpg); */
+        background-image: url(./image/mainBanner2.jpg);
         width: 100%;
         height: 250px;
         display: inline-block;
@@ -888,56 +892,69 @@ footer{
         color: black;
         display: inline-block;
         width: 30%;
-        height: 50px;
+        height: 70px;
         background-color: white;
         font-size: 7px;
         font-weight: bold;
-        line-height: 10px;
+        line-height: 5px;
     }
     .box1{
         float: left;
     }
     .box2{
-       margin-top: 10px; 
-        width: 20px;
+        background-color: #4d148c;
+        line-height: 25px;
+        color: white;
+        border: 5px solid #4d148c;
     }
     .box2>img{
-        color: white;
+        width: 40px !important;
+        margin-top: 10px; 
+        width: 20px;
     }
     .box3{
         float: right; 
+        margin-right: 12px;
      }
      .box3>img{
+        width: 30px !important;
         margin-top: 15px ;
      }
     
     .tracking-id{
-        margin-top: 30px;
-        height: 130px;
+        margin-top: 15px;
+        height: 50px;
+        min-width: 250px;
+        max-width: 455px;
+    }
+    .tracking{
+        width: 45%; 
     }
     .tracking-id input{
-        padding: 20px;
+        padding: 5px;
     }
     .btn-track{
         background-color: rgb(63, 0, 99);
-        width: 150px;
-        font-weight: bold;
+        width: 25%;
+        font-weight: 100;
         color: white;
-        font-size: 15px;
+        font-size: 10px
     }
     .btn-track:hover{
         background-color: #8400c2;
-        width: 155px;
+        width: 50px;
         transition:  0.4s;   
     }
     .para{
+        display: none;
+        width: 30%;
         color: white;
-        font-weight: bold;
+        margin-top: 5px;
         
     }
     .para>a{
         color: white;
-        font-weight: bolder;
+        font-weight: bold;
         text-decoration: none;
     }
     .para>a:hover{
@@ -952,166 +969,178 @@ footer{
     }
     .note{
         width: 100%;
-        height: 55px;
+        height: 35px;
         color: black;
-        text-align: center; 
-        line-height: 30px;
-        font-size: 18px;
+        text-align: center;
+        line-height: 10px;
+        font-size: 12px;
     }
     .saving{ 
         width: 100%;
-        height: 350px;
+        height: 150px;
     
     }
     .saving1{
         background-image: url(./image/secondBanner.jpg);
-        width: 70%;
-        height: 250px;
-        margin: 45px 14%;
+        width: 80%;
+        height: 120px;
+        margin: 4px 14%;
         display: inline-block;
     }
     .savingpara{
-        width: 40%;
-        height:200px ;
-        font-size: 20px;
+        width: 39%;
+        height: 80px ;
+        font-size: 8px;
         float: left;
-        margin-left: 10%;
+        margin-left: 5%;
         margin-bottom: 50%;
         font-family: 'Courier New', Courier, monospace;
     }
     .small-business{
         font-weight: 500;
-        font-size: 31px;
+        font-size: 11px;
         font-family: Tahoma;
     }
     .saving-btn{
         border: 2px solid #dc7ff38f;
         color: #4600b7;
         font-weight: bold;
-        padding: 15px;
-        width: 160px;
-        border-radius :30px; ;
+        padding: 3px;
+        width: 80px;
+        border-radius: 20px;
+        font-size: 9px;;
     }
     .saving-btn:hover{
         color: white;
         background-color: #4a028d;
     }
+    .gap{
+        width: 100%;
+        height: 200px;
+    }
     .shipments{
         height: 60px;
         color: black;
         text-align: center;
-        font-size: 40px; 
+        font-size: 20px; 
         font-weight:medium;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .services{ 
         width: 70%;
-        height: 150px;
-        margin: 15px auto;
+        height: 90px;
+        margin: 0px auto;
     }
     .icon-dropoff{
         width: 12%;
-        height: 145px;
+        height: 60px;
         display: inline-block;
-        margin-left: 7%;
+        margin-left: 5%;
     }
     .dropoff>img{
-        width: 50px;
-        height: 50px;
-        margin-bottom: 35px;
+        margin-bottom: 5px;
     }
     .icon-redirect{
         display: inline-block;
         width: 12%;
-        height: 145px;
-        margin-left:7%;
+        height: 60px;
+        margin-left: 5%;
     }
-    .redirect{
+    /* .redirect{
         margin-bottom: 5px;
-    }
+    } */
     .icon-store{
         display: inline-block;
         width: 12%;
-        height: 145px;
-        margin-left: 7%;
+        height: 60px;
+       margin-left: 5%;
     }
     .store{
-        margin-left: 10px;
+        margin-left: 5px;
+        margin-bottom: 3px !important;
     }
     .icon-alert{
         display: inline-block;
         width: 12%;
-        height: 145px;
-        margin-left: 7%;
+        height: 60px;
+        margin-left: 5%;
     }
     .alert{
-        margin-bottom: 15px;
-        margin-left: 20%;
+        margin-left: 5px;
+        margin-bottom: 2px !important;
     }
     .icon-return{
         display: inline-block;
         width: 12%;
-        height: 145px;
-        margin-left:7%; 
+        height: 60px;
+        margin-left: 5%; 
     }
     .return{
-        margin-bottom: 13px;
+        margin-left: 5px;
+        margin-bottom: 2px;
     }
     .services img{
-        width: 70px;
-        height: 70px;
+        width: 20px;
+        height: 20px;
     }
     .services a{
-       font-size: small;
         color: #0300b7;
-        word-spacing: 1px;
-        font-weight: 800;
-        text-transform: uppercase;
-        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        width: 70% !important;
+        height: 30px !important;
+        font-size: 6px !important;
+        word-spacing: 0px !important;
+        font-weight: 300 !important;
     }
     .services a:hover{
         text-decoration: underline;
     }
     .trophy{
         width: 70%;
-        height: 350px;
-        background-color: rgba(240, 248, 255, 0.733);
+        height: 150px;;
         margin: 5px 15%;
+        background-color: rgba(240, 248, 255, 0.733);
     }
     .trophy>img{
         width: 50%;
-        height: 350px;
+        height: 150px;
         float: right;
     }
     .logo-2{
-        width: 100px;
-        height: 50px;
-        margin: 0px 40px;
+        width: 50px;
+        height: 25px;
+        margin: 0px 30px;
+    }
+    .logo-2>img{
+        width: 60px;
+        height: 25px; 
+        margin-left: 0px;
     }
     .Trophy3D-3{
-        font-size: 25px;
+        font-size: 10px;
     }
     .trophy>p{
-    font-size: 20px;
-    word-spacing: 5px;
-    margin-left: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 8px;
+        word-spacing: 2px;
+        margin-left: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .trophy>a{
-        font-size: 15px;
+        font-size: 10px;
         color: #1b00b7;
         word-spacing: 1px;
-        font-weight: 700;
+        font-weight: 400;
         text-transform: uppercase;
         text-decoration: none;
-        margin-left: 40px;
+        margin-left: 30px;
     }
     .trophy>a:hover{
         text-decoration: underline;
     }
     .img-content{
         width: 70%;
-        height: 550px;
+        height: 200px;
         margin: 40px 15%; 
     }
     .img-content>img{
@@ -1130,21 +1159,21 @@ footer{
         margin-top: 10px;
     }
     .img-content p{
-        font-size: 20px;
-        word-spacing: 3px;
+        font-size: 10px;
+        word-spacing: 1px;
     }
     .para-heading{
-        font-size: 30px;
+        font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     sup{
-        font-size: small;
+        font-size: xx-small;
     }
     .img-content a{
-        font-size: small;
-        color: #007ab7;
+        font-size: 10px;
+        color: #1b00b7;
         word-spacing: 1px;
-        font-weight: 700;
+        font-weight: 500;
         text-transform: uppercase;
         text-decoration: none;
     }
@@ -1153,7 +1182,7 @@ footer{
     }
     .valentines-gift{
         width: 70%;
-        height: 500px;
+        /* height: 500px; */
         margin: 10px 15%;
     }
     .gift-heading{
@@ -1226,24 +1255,21 @@ footer{
     }
     .Send-and-receive-shipments{
         width: 70%;
-        height: 460px;
-        margin: 15px 15%;
+        height: 260px !important;
+        margin: 10px 15%;
     }
     .ship-receive-para{
-        width: 100%;
-        height: 50px;
-        text-align: center; 
-        font-size: 40px;
-        color: rgb(138, 138, 138);  
+        display: none;
     }
     .convenience-icon-left{
         float: left;
         width: 50%;
-        height: 400px;
+        height: 200px;
+        margin-top: 80px;
     }
     .convenience-icon{
         width: 100%;
-        height: 150px ;
+        height: 60px ;
         margin-top: 8px;
     }
     .convenience-icon>img{
@@ -1252,110 +1278,113 @@ footer{
     }
     .convenience-icon-para{  
         width:95% ;
-        height:250px ;
-        font-size: 17px;
+        height:90px ;
+        font-size: 7px;
         margin-right: 10px;
     }
-    .convenience-para-font{
-        font-size:30px ;
+    .convenience-para-heading{
+        font-size:10px ;
         color: rgb(138, 138, 138);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .convenience-icon-para button{
         border: 2px solid #780188;
         color: #8300b7;
-        font-weight: bold;
-        padding: 13px;
+        font-weight: 100;
+        padding: 2px;
+        font-size: 8px;
         text-transform: uppercase;
-        width: 40%;
-        border-radius: 30px; 
-        margin-left: 35%; 
+        width: 60%;
+        height: 20px;
+        border-radius: 20px; 
+        margin-left: 20%; 
     }
     .convenience-icon-para button:hover{
         color: white;
-        background: #6f00fffb;
+        background: #ae00fffb;
     }
     .package-icon-right{
         width: 50%;
-        height: 400px;
+        height: 200px;
         float: right;
         margin-top: 0px;
     }
     .package-icon-2{
         width: 100%;
-        height: 150px ;
+        height: 60px ;
         margin-top: 10px;
      
     }
     .package-icon-2>img{
         width: 25%;
-        margin: 20px 37.5%;
+        margin: 10px 33%;
     }
-    .package-para-font{
-        font-size:30px ;
+    .package-para-heading{
+        font-size:10px ;
         color: rgb(138, 138, 138);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .packages-icon-2-para{
         width:100% ;
         height:200px ;
-        font-size: 17px;
+        font-size: 7px;
     }
     
     .packages-icon-2-para button{
-        border: 2px solid #8c00b7;
-        color: #7d00b7;
-        font-weight: bold;
-        padding: 15px;
+        border: 2px solid #780188;
+        color: #8300b7;
+        font-weight: 200;
+        padding: 2px;
+        font-size: 8px;
         text-transform: uppercase;
-        width: 45%;
-        border-radius: 30px; 
-        margin-left: 35%; 
-        margin-top: 18px;
+        width: 70%;
+        height: 20px;
+        border-radius: 20px; 
+        margin-left: 30%; 
+        margin-top: 8px;
     }
     .packages-icon-2-para button:hover{
         color: white;
-        background: #4d0194e0;
+        background: #ae00fffb;
     }
     .nonprofits{
         width: 70%;
-        height: 450px;
-        margin: 35px 15%;
+        height: 170px;
+        margin: 50px 15% !important;
     }
     .bg-img-body{
         background-image: url(./image/bannerBeforeFooter.jpg );
         background-size: 100%;
         width: 100%;
-        height: 450px;
+        height: 170px;
     }
     .nonprofits-para{
         float: right;
         width: 40%;
-        height: 400px ;
-        margin-top: 25px ;
-        margin-right: 25px;
-       background-color: rgba(255, 255, 255, 0.75);
+        height: 120px ;
+        margin: 25px 25px;
+       background-color: rgba(231, 229, 229, 0.75);
     }
     .non-profits-para-align{
         width: 70% ;
-        height:300px ;
-        margin:50px 15% ;
-        font-size: 20px;
-        word-spacing: 2px;
+        height:60px ;
+        margin:0px 15% ;
+        font-size: 7px;
         color: rgb(150, 150, 150); 
     }
     .non-profits-para-gap{
-        font-size:25px ;
+        font-size:10px ;
         color: rgb(82, 55, 55);
     }
     .non-profits-para-align button{
         border: 2px solid #9200b7;
         color: #7400b7;
-        font-weight: bold;
-        padding: 15px;
+        font-weight: 600;
+        font-size: 5px;
+        padding: 4px;
         text-transform: uppercase;
-        width : 70%;
-        border-radius: 30px;
+        width: 80%;
+        border-radius: 20px;
         margin-left: 15%;
     }
     .non-profits-para-align button:hover{
@@ -1364,62 +1393,68 @@ footer{
     }
     .customers-feedback{
         width: 70%;
-        height: 450px;
+        height: 250px;
         margin: 25px 15%;
     }
     .feedback-para{
         width: 100%;
-        height: 50px;
-        color: rgb(145, 145, 145);
-        font-size: 40px;
+        height: 30px;
+        font-size: 15px;
         text-align: center;
+        color: rgb(145, 145, 145);
     }
     .packaging{
-       width: 100%;
-       height:165px ;
-       margin-top:25px ;
+        width: 100%;
+        height: 85px ;
+        margin-top: 25px ;
+    }
+    .packaging>img{
+        height: 85px;
     }
     .packaging-para{
         width: 73%;
         height: 100%;
         float: right;
-        font-size: 20px;
+        font-size: 8px;
     }
     .packaging-para-heading{
-        font-size:30px ;
+        font-size:10px ;
         color: rgb(84, 79, 79);
     }
     .packaging-para a{
-        font-size: small;
-        color: #0012b7;
+        font-size: 5px;
+        color: #1b00b7;
         word-spacing: 1px;
-        font-weight: 700;
+        font-weight: 600;
         text-transform: uppercase;
-        text-decoration: none;   
+        text-decoration: none;  
     }
     .packaging-para a:hover{
         text-decoration: underline;
     }
     .busy-spring{
         width: 100%;
-        height: 160px;
+        height: 85px;
         margin-top: 25px;
+    }
+    .busy-spring>img{
+        height: 85px;
     }
     .busy-spring-para{
         width: 73%;
-        height: 160px;
+        height: 80px;
         float: right;
-        font-size: 18px;
+        font-size: 8px;
     }
     .busy-para-heading{
-        font-size:30px ;
+        font-size:10px ;
         color: rgb(84, 79, 79);
     }
     .busy-spring-para a{
-        font-size: small;
-        color: #002bb7;
+        font-size: 5px;
+        color: #1b00b7;
         word-spacing: 1px;
-        font-weight: 700;
+        font-weight: 600;
         text-transform: uppercase;
         text-decoration: none; 
     }
@@ -1428,19 +1463,19 @@ footer{
     }
     .money-back{
         width: 70%;
-        height: 150px;
-        margin: 30px 15%;
-        font-size: 20px;
+        height: 70px;
+        margin: 10px 15%;
+        font-size: 9px;
     }
-    .money-back-para-font{
+    .money-back-para-heading{
         font-weight: bold;
-        font-size: 20px ;
+        font-size: 15px ;
         color: rgb(84, 79, 79);
     }
     .about-your-company{
         display: inline-block;
         width: 100%;
-        height: 450px;
+        height: 250px;
         background-color: rgba(243, 240, 240, 0.75); ;
     }
     .about-your-company hr{
@@ -1448,20 +1483,23 @@ footer{
     }
     .company-information{
         width: 80%;
-        height: 220px;
+        height: 200px;
         margin: 25px 10%;
     }
     .our-company{
-     display: inline-block;
+        display: inline-block;
         width: 30%;
-        height: 150px;
+        height: 120px;
         margin-top: 35px ;
-        margin-left: 10px;
+        margin-left: 5px;
     }
     .our-company-para{
         float: left;
-       width:50% ;
-       height: 150px;
+        width:50% ;
+        height: 150px;
+    }
+    .our-company-para ul{
+        padding: 0px;
     }
     .our-company li{
         list-style-type: none;
@@ -1471,57 +1509,60 @@ footer{
     .our-company-para>p{
         width: 100%;
         color: #8602a1;
-        font-weight: bold;
+        font-weight: 500;
         text-transform: uppercase;
-        margin-left: 38px;
+        font-size: 7px;
     }
     .our-company-para a{
         color: black;
         text-decoration: none;
-        font-size: 15px;
-        margin: 2px auto;
+        font-size: 7px;
     }
     .our-company-para a:hover{
          text-decoration: underline;
+    }
+    .our-company-para-2 ul{
+        padding: 0px;
     }
     .our-company-para-2{
         display: inline-block;
         float: right;
         width: 45%;
         height: 150px;
-        margin-top: 35px ;
+        margin-top: 20px;
     }
     .our-company-para-2 a{
         color: black;
         text-decoration: none;
-        font-size: 15px;
-        margin: 2px auto;
+        font-size: 7px;
+        margin: 0px auto;
     }
     .our-company-para-2 a:hover{
         text-decoration: underline;
     }
     .about-more-company{
         float: left;
-        width: 30%;
+        width: 35%;
         height: 150px;
-        
-        margin-top: 0px;
     }
     .about-more-company>p{
         width: 100%;
         color: #8602a1;
-        font-weight: bold;
+        font-weight: 500;
+        font-size: 7px ;
         text-transform: uppercase;
-        margin-left: 38px;
+    }
+    .about-more-company ul{
+        padding: 0px;
     }
     .about-more-company li{
         list-style-type: none;
-        padding: 2px;
-        margin: 0% auto;
+        padding: 0px;
+        margin: 0%;
     }
     .about-more-company a{
         color: black;
-        font-size: 15px;
+        font-size: 6px;
         text-decoration: none;
     }
     .about-more-company a:hover{
@@ -1540,74 +1581,81 @@ footer{
         height: 150px;
         margin-right: 5%;
         margin-bottom: 5%;
-        font-size: 15px;
+        font-size: 7px;
+    }
+    .Country img{
+        width: 10px;
+        margin-top: 5px;
     }
     .Country>p{
         color: #8602a1;
         font-weight: bold;
     }
     .Country select{
-        width: 90%;
-        height: 50px;
-        margin-top: 5px ;
+        width:90% ;
+        height:30px ;
+        font-size: 8px;
+        margin-top: 5px;
        border:  1px solid #fafafa;
     }
     .follow-fedex{
         width: 30%;
-        height: 130px;
+        height: 70px;
         margin-left: 13%;
     }
     .follow-fedex>p{
         display: inline-block;
-        font-size: small;
+        font-size: 8px;
         width: 30%;
         color: #4d148c;
         font-weight: bold;
         text-transform: uppercase;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .follow-fedex-icon{
         float: right;
         width:60% ;
         height: 40px ;
-        margin-top: 42px;
+        margin-top: 30px;
         margin-right: 15px;
     }
     .follow-fedex img{
-        padding: 2px;
+        width: 10px;
+        height: 10px;
+        padding: 0px;
     }
     footer{
         display: inline-block;
         width: 100%;
-        height: 70px;
+        height: 40px;
         background-color: #4d148c;
     }
     .footer-para{
         float: left;
-        width: 20%;
-        height: 30px;
-        margin-top: 25px ;
+        width: 30%;
+        height: 20px;
+        margin-top: 15px ;
         margin-left: 15%;
     }
     .footer-para>p{ 
         color: white;
         margin-top: 0px;
         margin-left: 0px;
-        font-size: small;
+        font-size: 8px;
     }
     .footer-site{
         color: white;
         float: right;
-        width: 30%;
+        width: 40%;
         height:30px ;
-        margin-top: 25px;
-        margin-right: 5%;
+        margin-top: 8px;
+        margin-right: 1%;
     }
     .footer-site a{
         color: white;
-        font-size: small;
+        font-size: 8px;
         text-decoration:none ;
-        padding: 18px;
+        padding: 4px;
     }
     .footer-site a:hover{
         text-decoration: underline;
