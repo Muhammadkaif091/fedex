@@ -355,78 +355,77 @@ sup{
 }
 .valentines-gift{
     width: 70%;
-    height: 100px;
-    margin: 10px 15% !important;
+    height: 530px;
+    margin: 10px 15%;
 }
 .gift-heading{
     width: 100%;
-    height: 20px;
-    margin: 100px 10px auto;
+    height: 50px;
     text-align: center; 
-    font-size: 16px !important;
+    font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(158, 156, 156);
 }
 .speed-gift{
     width: 100%;
-    height: 80px !important;
-    margin-top: 10px !important;
+    height: 180px;
+    margin-top: 30px;
 }
 .speed-para{
     width: 70%;
     float: right;
-    height: 80px !important;
-    margin-top: 0px;
+    height: 180px;
 }
-.speed-gift>img{
+/* .speed-gift>img{
     height: 80px;
-}
+} */
 .speed-para>p{
-    font-size: 10px !important;
-    word-spacing: 3px !important;
-    margin-left: 8px !important;
+    font-size: 20px;
+    word-spacing: 3px;
+    margin-left: 20px;
 }
 .speed-para-heading{
-    font-size:15px !important;
+    font-size:30px;
     color: rgb(84, 79, 79);
 }
 .speed-para a{
-    font-size: 7px !important;
-    color: #1b00b7 !important;
-    font-weight: 600 !important;
-    text-transform: uppercase !important;
+    font-size: small;
+    color: #1b00b7;
+    word-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
     text-decoration: none;
-    margin-left: 8px !important;
+    margin-left: 20px;
 }
 .speed-para a:hover{
     text-decoration: underline;
 }
 .taxes-gift{
     width: 100%;
-    height: 80px !important;
-    margin-top: 20px !important;
+    height: 180px;
+    margin-top: 50px;
 }
 .taxes-gift>img{
     float: right;
-    height: 80px !important;
 }
 .taxes-para{
     width: 70%;
-    height: 80px;
+    height: 180px;
 }
 .taxes-para p{
-    margin-top: 10px !important;
-    margin-right: 20px !important;
-    font-size: 10px !important;
-    word-spacing: 1px !important;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    word-spacing: 3px;
 }
 .taxes-para a{
-    font-size: 7px !important;
-    color: #1b00b7 !important;
-    font-weight: 600 !important;
+    color: #1b00b7;
+    font-size: small;
+    word-spacing: 1px;
+    font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    margin-bottom: 10px !important;
+
 }
 .taxes-para a:hover{
     text-decoration: underline;
@@ -437,9 +436,10 @@ sup{
     margin: 15px 15%;
 }
 .ship-receive-para{
-    width: 70%;
-    height: 260px !important;
-    margin: 10px 15%;
+    width: 100%;
+    height: 50px;
+    text-align: center; 
+    font-size: 40px;
     color: rgb(138, 138, 138);  
 }
 .convenience-icon-left{
@@ -497,7 +497,7 @@ sup{
     width: 25%;
     margin: 20px 37.5%;
 }
-.package-para-font{
+.package-para-heading{
     font-size:30px ;
     color: rgb(138, 138, 138);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -742,7 +742,7 @@ sup{
 .Country{
     display: inline-block;
     float: right;
-    width: 30%;
+    width: 40%;
     height: 150px;
     margin-right: 5%;
     margin-bottom: 5%;
@@ -827,8 +827,9 @@ footer{
     body{
         width: 100%;
         margin: 0px;
-        /* min-width: 640px;
-        max-width: 320px; */
+        min-width: 640px;
+        max-width: 320px;
+        overflow-x: hidden;
     }
     .main{ 
         width: 100%; 
@@ -1016,7 +1017,7 @@ footer{
     }
     .gap{
         width: 100%;
-        height: 200px;
+        height: 300px;
     }
     .shipments{
         height: 60px;
@@ -1182,71 +1183,74 @@ footer{
     }
     .valentines-gift{
         width: 70%;
-        /* height: 500px; */
-        margin: 10px 15%;
+        height: 150px;
+        margin: 100px 15% !important;
     }
     .gift-heading{
         width: 100%;
-        height: 50px;
+        height: 20px;
         text-align: center; 
-        font-size: 40px;
+        font-size: 16px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: rgb(158, 156, 156);
     }
     .speed-gift{
         width: 100%;
-        height: 180px;
-        margin-top: 30px;
+        height: 80px;
+        margin-top: 10px;
+    }
+    .speed-gift>img{
+        height: 80px;
     }
     .speed-para{
         width: 70%;
         float: right;
-        height: 180px;
+        height: 80px;
+        margin-top: 0px;
     }
     .speed-para>p{
-        font-size: 20px;
+        font-size: 10px;
         word-spacing: 3px;
-        margin-left: 20px;
+        margin-left: 9px;
     }
     .speed-para-heading{
-        font-size:30px ;
+        font-size:10px ;
         color: rgb(84, 79, 79);
     }
     .speed-para a{
-        font-size: small;
-        color: #007ab7;
-        word-spacing: 1px;
-        font-weight: 700;
+        font-size: 5px;
+        color: #1b00b7;
+        font-weight: 600;
         text-transform: uppercase;
         text-decoration: none;
-        margin-left: 20px;
+        margin-left: 8px;
     }
     .speed-para a:hover{
         text-decoration: underline;
     }
     .taxes-gift{
         width: 100%;
-        height: 180px;
+        height: 80px;
         margin-top: 50px;
     }
     .taxes-gift>img{
         float: right;
+        height: 80px;
     }
     .taxes-para{
         width: 70%;
-        height: 180px;
+        height: 80px;
     }
     .taxes-para p{
-        margin-top: 20px;
+        margin-top: 10px;
         margin-right: 20px;
-        font-size: 20px;
-        word-spacing: 3px;
+        font-size: 10px;
+        word-spacing: 1px;
     }
     .taxes-para a{
-        font-size: small;
-        color: #007ab7;
-        word-spacing: 1px;
-        font-weight: 700;
+        font-size: 5px;
+        color: #1b00b7;
+        font-weight: 600;
         text-transform: uppercase;
         text-decoration: none;
     }
@@ -1307,7 +1311,7 @@ footer{
         width: 50%;
         height: 200px;
         float: right;
-        margin-top: 0px;
+        margin-top: 75px;
     }
     .package-icon-2{
         width: 100%;
